@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-people_counter",
+      "appliesTo": "people_counter.py",
+      "type": "launch"
+    }
+  ]
+}

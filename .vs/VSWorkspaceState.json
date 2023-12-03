@@ -4,6 +4,6 @@
     "\\detector",
     "\\env-people-counter-real-time"
   ],
-  "SelectedNode": "\\requirements.txt",
+  "SelectedNode": "\\detector\\MobileNetSSD_deploy.prototxt",
   "PreviewInSolutionExplorer": false
 }

@@ -1,3 +1,4 @@
 {
-  "Interpreter": "env-people-counter-real-time\\Scripts\\python.exe"
+  "Interpreter": "env-people-counter-real-time\\Scripts\\python.exe",
+  "SuppressConfigureTestFrameworkPrompt": "true"
 }

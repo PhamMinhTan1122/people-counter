@@ -15,6 +15,7 @@ import dlib
 import time
 import json
 import cv2
+import sys
 
 class PeopleCounter:
     def __init__(self, args):
@@ -105,7 +106,7 @@ class PeopleCounter:
                         break  # exit the loop after finding the random song
                 print("playing")
                 pygame.mixer.music.load(self.song)
-                pygame.mixer.music.play()
+                pygame.mixer.music.play(fade_ms=10000)
                 while pygame.mixer.music.get_busy():
                     time.sleep(0.3)
                     with open(self.path_cache, "r") as file:
@@ -244,3 +245,4 @@ if __name__ == "__main__":
     pygame.mixer.music.stop()
     pygame.quit()
     pygame.QUIT
+    sys.exit()
